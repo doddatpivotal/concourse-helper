@@ -20,8 +20,8 @@ mv pivnet-darwin-amd64-2.0.1 pivnet
 rm kp
 ./pivnet download-product-files \
   --product-slug='build-service' \
-  --release-version='1.0.2' \
-  --product-file-id=773505 \
+  --release-version='1.0.3' \
+  --product-file-id=817469 \
   --config=$PIVNET_CONFIG
  chmod +x ./kp-linux-0.1.1
  mv kp-linux-0.1.1 kp
