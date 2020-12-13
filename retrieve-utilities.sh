@@ -1,5 +1,5 @@
 rm kubectl
-curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.18.8/bin/linux/amd64/kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.19.1/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 
 rm ytt
@@ -21,7 +21,7 @@ rm kp
 ./pivnet download-product-files \
   --product-slug='build-service' \
   --release-version='1.0.3' \
-  --product-file-id=817469 \
+  --product-file-id=817470 \
   --config=$PIVNET_CONFIG
- chmod +x ./kp-linux-0.1.1
- mv kp-linux-0.1.1 kp
+ chmod +x ./kp-linux-0.1.3
+ mv kp-linux-0.1.3 kp
