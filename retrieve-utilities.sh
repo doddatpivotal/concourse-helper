@@ -1,3 +1,5 @@
+#! /usr/bin/env bash
+
 rm kubectl
 curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.19.1/bin/linux/amd64/kubectl
 chmod +x ./kubectl
@@ -25,3 +27,7 @@ rm kp
   --config=$PIVNET_CONFIG
  chmod +x ./kp-linux-0.1.3
  mv kp-linux-0.1.3 kp
+
+rm tmc
+curl -LO https://tmc-cli.s3-us-west-2.amazonaws.com/tmc/0.2.0-ba47223d/linux/x64/tmc
+chmod +x ./tmc
