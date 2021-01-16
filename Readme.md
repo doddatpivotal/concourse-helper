@@ -6,6 +6,7 @@ Provides image for concourse tasks that have the following utilities:
 - ytt
 - kubectl
 - kp
+- tmc
 
 ## Prerequisites before building image 
 

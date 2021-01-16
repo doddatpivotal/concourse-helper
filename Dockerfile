@@ -8,5 +8,6 @@ COPY kp /usr/bin/kp
 COPY kubectl /usr/bin/kubectl
 COPY kapp /usr/bin/kapp
 COPY ytt /usr/bin/ytt
+COPY tmc /usr/bin/tmc
 
 ENTRYPOINT [ "echo hello" ]
