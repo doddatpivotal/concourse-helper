@@ -29,5 +29,5 @@ chmod +x ./kp-linux-0.2.0
 mv kp-linux-0.2.0 kp
  
 rm tmc
-curl -LO https://tmc-cli.s3-us-west-2.amazonaws.com/tmc/0.2.1-ded34d75/linux/x64/tmc
+curl -LO https://tmc-cli.s3-us-west-2.amazonaws.com/tmc/0.2.1-3baebdac/linux/x64/tmc
 chmod +x ./tmc
