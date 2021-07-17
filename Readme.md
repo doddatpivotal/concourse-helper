@@ -18,7 +18,7 @@ Retrieve dependencies.
 
 ```bash
 export PIVNET_CONFIG=~/.pivnetrc
-export IMAGE_TAG=harbor.stormsend.tkg-vsphere-lab.winterfell.live/concourse/concourse-helper
+export IMAGE_TAG=harbor.bearisland.tkg-vsphere-lab.winterfell.life/concourse/concourse-helper
 ```
 
 2. Run script to retrieve utilities.
